@@ -12,16 +12,16 @@ Responsive Web Design freeCodeCamp
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form"> 
       <label for="name-label" id="name-label">
-      <legend>Name</legend>
-      <input id="name" placeholder="Enter your name" type="text" required>
+        <legend>Name</legend>
+        <input id="name" placeholder="Enter your name" type="text" required>
       </label>
       <label for="email-label" id="email-label">
-      <legend>Email</legend>
-      <input id="email" placeholder="Enter your Email" type="email" required>
+        <legend>Email</legend>
+        <input id="email" placeholder="Enter your Email" type="email" required>
       </label>
       <label for="number-label" id="number-label">
-      <legend>Age (optional)</legend>
-      <input id="number" type="number" placeholder="Age" min="1" max="120">
+        <legend>Age (optional)</legend>
+        <input id="number" type="number" placeholder="Age" min="1" max="120">
       </label>
       <br>
       <label for="dropdown">Which option best describes your current role?</label>
@@ -46,12 +46,12 @@ Responsive Web Design freeCodeCamp
         <input id="not-sure" type="radio" name="definitely-maybe--not-sure" value="not-sure">Not sure
       </label>
       <legend>What is your favorite feature of freeCodeCamp?</legend>
-      <select name="dropdown" id="dropdown">
-      <option value="challenges">Challenges</option>
-      <option value="projects">Projects</option>
-      <option value="community">Community</option>
-      <option value="open-source">Open Source</option>
-      </select>
+        <select name="dropdown" id="dropdown">
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-source">Open Source</option>
+        </select>
     </form>
   </body>
 </html>

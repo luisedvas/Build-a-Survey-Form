@@ -12,16 +12,16 @@ Responsive Web Design freeCodeCamp
     <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form"> 
       <label for="name-label" id="name-label">
-        <legend>Name</legend>
-        <input id="name" placeholder="Enter your name" type="text" required>
+      <legend>Name</legend>
+      <input id="name" placeholder="Enter your name" type="text" required>
       </label>
       <label for="email-label" id="email-label">
-        <legend>Email</legend>
-        <input id="email" placeholder="Enter your Email" type="email" required>
+      <legend>Email</legend>
+      <input id="email" placeholder="Enter your Email" type="email" required>
       </label>
       <label for="number-label" id="number-label">
-        <legend>Age (optional)</legend>
-        <input id="number" type="number" placeholder="Age" min="1" max="120">
+      <legend>Age (optional)</legend>
+      <input id="number" type="number" placeholder="Age" min="1" max="120">
       </label>
       <br>
       <label for="dropdown">Which option best describes your current role?</label>
@@ -46,12 +46,40 @@ Responsive Web Design freeCodeCamp
         <input id="not-sure" type="radio" name="definitely-maybe--not-sure" value="not-sure">Not sure
       </label>
       <legend>What is your favorite feature of freeCodeCamp?</legend>
-        <select name="dropdown" id="dropdown">
-          <option value="challenges">Challenges</option>
-          <option value="projects">Projects</option>
-          <option value="community">Community</option>
-          <option value="open-source">Open Source</option>
-        </select>
+      <select name="dropdown" id="dropdown">
+      <option value="challenges">Challenges</option>
+      <option value="projects">Projects</option>
+      <option value="community">Community</option>
+      <option value="open-source">Open Source</option>
+      </select>
+        <br>
+      <legend>What would you like to see improved? (Check all that apply)</legend>
+      <input type="checkbox" value="front-end-projects">Front-end Projects
+      <br>
+      <input type="checkbox" value="back-end-projects">Back-end Projects
+      <br>
+      <input type="checkbox" value="data-visualization">Data Visualization
+      <br>
+      <input type="checkbox" value="challenges">Challenges
+      <br>
+      <input type="checkbox" value="open-source-community">Open Source Community
+      <br>
+      <input type="checkbox" value="gitter-help-rooms">Gitter help rooms
+      <br>
+      <input type="checkbox" value="videos">Videos
+      <br>
+      <input type="checkbox" value="city-meetups">City Meetups
+      <br>
+      <input type="checkbox" value="wiki">Wiki
+      <br>
+      <input type="checkbox" value="forum">Forum
+      <br>
+      <input type="checkbox" value="additional-courses">Additional Courses
+      <br>
+      <legend>Any comments or suggestions?</legend>
+      <textarea></textarea>
+      <br>
+      <button type="submit" id="submit">Submit</button>
     </form>
   </body>
 </html>

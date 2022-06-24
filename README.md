@@ -27,7 +27,7 @@ New Responsive Web Design freeCodeCamp
         <option value="full-time-job">Full Time Job</option>
         <option value="full-time-learner">Full Time Learner</option>
         <option value="prefer-not-to-say">Prefer not to say</option>
-        <option value="other">Other</option<
+        <option value="other">Other</option>
       </select>
     </form>
   </body>

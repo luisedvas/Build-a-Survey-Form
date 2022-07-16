@@ -32,12 +32,12 @@ New Responsive Web Design freeCodeCamp
         <option value="other">Other</option>
         <section class="rec">
           <p>Would you recommend freeCodeCamp to a friend?</p>
-          <label>Definitely</label>
-          <input type="radio" value="definitely" name="definitely">
-          <label>Maybe</label>
-          <input type="radio" value="maybe" name="maybe">
-          <label>Not sure</label>
-          <input type="radio" value="not-sure" name="not-sure">
+          <label for="def">Definitely</label>
+          <input id="def" type="radio" value="definitely" name="definitely">
+          <label for="may">Maybe</label>
+          <input id="may" type="radio" value="maybe" name="maybe">
+          <label for="nt">Not sure</label>
+          <input id="nt" type="radio" value="not-sure" name="not-sure">
         </section>
         <label for="dropdown">What is your favorite feature of freeCodeCamp?</label>
         <select name="current-role" id="dropdown">

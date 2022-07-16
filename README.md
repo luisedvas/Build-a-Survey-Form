@@ -74,7 +74,6 @@ New Responsive Web Design freeCodeCamp
         type="checkbox"
         class="input-checkbox"
       />Front-end Projects</label>
-
       <label
       ><input 
         name="prefer"
@@ -82,7 +81,6 @@ New Responsive Web Design freeCodeCamp
         type="checkbox"
         class="input-checkbox"
       />Back-end Projects</label>
-
      <label
      ><input 
        name="prefer"
@@ -90,7 +88,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Data Visualization</label>
-
      <label
      ><input 
        name="prefer"
@@ -98,7 +95,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Challenges</label>
-
      <label
      ><input 
        name="prefer"
@@ -106,7 +102,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Open Source Community</label>
-
      <label
      ><input 
        name="prefer"
@@ -114,7 +109,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Gitter Help Rooms</label>
-
      <label
      ><input 
        name="prefer"
@@ -122,7 +116,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Videos</label>
-
      <label
      ><input 
        name="prefer"
@@ -130,7 +123,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />City meetups</label>
-
      <label
      ><input 
        name="prefer"
@@ -138,7 +130,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Wiki</label>
-
      <label
      ><input 
        name="prefer"
@@ -146,7 +137,6 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Forum</label>
-
      <label
      ><input 
        name="prefer"
@@ -154,9 +144,7 @@ New Responsive Web Design freeCodeCamp
        type="checkbox"
        class="input-checkbox"
      />Additional courses</label>
- 
       </div>
-
       <div class="form-group">
         <p>Any comments or suggestions?</p>
         <textarea
@@ -166,8 +154,7 @@ New Responsive Web Design freeCodeCamp
         placeholder="Enter your comment here..."
         ></textarea>
       </div>
-
-          <div class="form-group">
+      <div class="form-group">
             <button type="submit" id="submit" class="submit-button">
               Submit
             </button>
